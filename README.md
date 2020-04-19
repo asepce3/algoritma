@@ -1,1 +1,2 @@
 # algoritma
+* hitung pecahan duit
