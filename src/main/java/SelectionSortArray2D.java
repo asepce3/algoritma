@@ -20,7 +20,7 @@ public class SelectionSortArray2D {
             for (int j = 0; j < a[i].length; j++) {
                 y = j;
                 for (int k = 0; k < a.length; k++) {
-                    for (int l = 0; l < a[i].length; l++) {
+                    for (int l = 0; l < a[k].length; l++) {
                         if (k*a[k].length+l < i*a[i].length+j) continue;
                         if (a[x][y] > a[k][l]) {
                             x = k;
